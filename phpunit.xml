@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="./public/autoload.php" colors="true">
+    <testsuites>
+        <testsuite name="Dealer Inspire Test Suite">
+            <directory>./public/phpUnitTests/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

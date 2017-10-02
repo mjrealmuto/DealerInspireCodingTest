@@ -1,0 +1,12 @@
+[02-Oct-2017 10:00:32 America/Chicago] PHP Fatal error:  Uncaught Error: Cannot access self:: when no class scope is active in /home3/mikeymut/public_html/dealerinspire/public/inc/dbConnect.php:18
+Stack trace:
+#0 /home3/mikeymut/public_html/dealerinspire/public/inc/process.php(2): require()
+#1 {main}
+  thrown in /home3/mikeymut/public_html/dealerinspire/public/inc/dbConnect.php on line 18
+[02-Oct-2017 10:01:34 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Db' not found in /home3/mikeymut/public_html/dealerinspire/public/inc/class.process.php:17
+Stack trace:
+#0 /home3/mikeymut/public_html/dealerinspire/public/inc/process.php(7): Process->__construct('Michael Realmut...', 'michael.realmut...', '630-335-4549', ';ldskjfd', Object(mysqli))
+#1 {main}
+  thrown in /home3/mikeymut/public_html/dealerinspire/public/inc/class.process.php on line 17
+[02-Oct-2017 10:19:09 America/Chicago] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'mikeymut_di1'@'localhost' (using password: YES) in /home3/mikeymut/public_html/dealerinspire/public/inc/dbConnect.php on line 10
+[02-Oct-2017 10:27:16 America/Chicago] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'mikeymut_di1'@'localhost' (using password: YES) in /home3/mikeymut/public_html/dealerinspire/public/inc/dbConnect.php on line 10
